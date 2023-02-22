@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tech Sisterhood Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="home">
+      <div data-role="header">
+        <h1>Tech Sisterhood</h1>
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#home" class="ui-btn-active ui-state-persist">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#Projects">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+        <h2>Welcome to the Tech Sisterhood Club</h2>
+        <p>A community for women in tech to connect, learn, and grow together.</p>
+        <a href="#" class="ui-btn ui-btn-b ui-corner-all ui-shadow">Join Now</a>
+      </div>
+      
+      <div data-role="footer">
+        <h4>&copy; 2023 Tech Sisterhood Club. All rights reserved.</h4>
+      </div>
+    </div>
+    
+    <div data-role="page" id="about">
+      <div data-role="header">
+        <a href="#home" data-icon="arrow-l" data-transition="slide" data-direction="reverse">Back</a>
+        <h1>About Us</h1>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+        <p>The Tech Sisterhood Club is a non-profit organization dedicated to empowering women in technology through community building, education, and advocacy.</p>
+        <a href="#" class="ui-btn ui-btn-b ui-corner-all ui-shadow">Learn More</a>
+      </div>
+      
+      <div data-role="footer">
+        <h4>&copy; 2023 Tech Sisterhood Club. All rights reserved.</h4>
+      </div>
+    </div>
+    
+    <div data-role="page" id="events">
+      <div data-role="header">
+        <a href="#home" data-icon="arrow-l" data-transition="slide" data-direction="reverse">Back</a>
+        <h1>Upcoming Events</h1>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+        <ul data-role="listview" data-inset="true">
+          <li>
+            <h2>Tech Talk</h2>
+            <p>March 15, 2023</p>
+          </li>
+          <li>
+            <h2>Coding Workshop</h2>
+            <p>April 1, 2023</p>
+          </li>
+          <li>
+            <h2>Hackathon</h2>
+            <p>May 20-21, 202
+            </ul>
+          </div>
+          
+          <div data-role="footer">
+            <h4>&copy; 2023 Tech Sisterhood Club. All rights reserved.</h4>
+          </div>
+        </div>
+        
+        <div data-role="page" id="contact">
+          <div data-role="header">
+            <a href="#home" data-icon="arrow-l" data-transition="slide" data-direction="reverse">Back</a>
+            <h1>Contact Us</h1>
+          </div>
+          
+          <div data-role="main" class="ui-content">
+            <p>Have a question or feedback for us? We'd love to hear from you!</p>
+            <form>
+              <div class="ui-field-contain">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+              </div>
+              <div class="ui-field-contain">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+              </div>
+              <div class="ui-field-contain">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea>
+              </div>
+              <input type="submit" value="Submit" class="ui-btn ui-btn-b ui-corner-all ui-shadow">
+            </form>
+          </div>
+          
+          <div data-role="footer">
+            <h4>&copy; 2023 Tech Sisterhood Club. All rights reserved.</h4>
+          </div>
+        </div>
+      </body>
+      </html>        
